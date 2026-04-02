@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KI in meinem BG | FT aktiv gestalten</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #ffffff;
+      color: #1a1a1a;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      padding: 0 1.25rem;
+    }
+
+    .page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 3.5rem 0 4rem;
+    }
+
+    /* Header */
+    .tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: #b85c3a;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-family: 'Source Serif 4', serif;
+      font-weight: 600;
+      font-size: clamp(1.6rem, 3.5vw, 2.1rem);
+      line-height: 1.3;
+      color: #1a1a1a;
+      margin-bottom: 1.1rem;
+    }
+
+    .intro {
+      font-size: 0.97rem;
+      color: #555;
+      max-width: 560px;
+      margin-bottom: 2.8rem;
+      line-height: 1.7;
+    }
+
+    /* Section heading */
+    h2 {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #999;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    /* Link list */
+    .links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .links li {
+      border-bottom: 1px solid #ebebeb;
+      padding: 1.6rem 0;
+    }
+
+    .links li:first-child {
+      padding-top: 0;
+    }
+
+    .links a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .links a:hover .link-title {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .link-title {
+      font-family: 'Source Serif 4', serif;
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: #c0643b;
+      margin-bottom: 0.25rem;
+      line-height: 1.4;
+    }
+
+    .link-author {
+      font-size: 0.8rem;
+      color: #999;
+      margin-bottom: 0.6rem;
+      font-weight: 500;
+    }
+
+    .link-desc {
+      font-size: 0.93rem;
+      color: #444;
+      line-height: 1.65;
+    }
+
+    /* Highlight for first card */
+    .links li.featured {
+      background: #fdf7f2;
+      margin: 0 -1.2rem;
+      padding: 1.6rem 1.2rem;
+      border-radius: 6px;
+      border-bottom: none;
+      margin-bottom: 0.5rem;
+    }
+
+    .featured-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: #c07a3a;
+      background: rgba(192, 122, 58, 0.1);
+      padding: 0.18rem 0.55rem;
+      border-radius: 3px;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 2.8rem;
+      padding-top: 1.4rem;
+      border-top: 1px solid #ebebeb;
+      font-size: 0.83rem;
+      color: #999;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 480px) {
+      .page {
+        padding: 2.2rem 0 3rem;
+      }
+
+      .links li.featured {
+        margin: 0 -0.8rem;
+        padding: 1.4rem 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <span class="tag">Modul 4 · Selbstlerneinheit</span>
+      <h1>KI in meinem BG&nbsp;|&nbsp;FT aktiv gestalten</h1>
+      <p class="intro">
+        Diese Seite begleitet dich durch die Selbstlerneinheit vor unserer Videokonferenz.
+        Du findest hier ausgewählte Impulse und Materialien zum Erkunden, Lesen und
+        Nachdenken – ganz in deinem eigenen Tempo.
+      </p>
+    </header>
+
+    <h2>Weiterführende Links</h2>
+
+    <ul class="links">
+
+      <li class="featured">
+        <a href="https://alice.taskcards.app/#/board/42d7cd96-5f64-4fe6-afea-ce8d7a6e80aa?token=109ff9a3-0900-4603-9f38-4cba246e5697" target="_blank" rel="noopener">
+          <span class="featured-badge">Zum Ausprobieren</span>
+          <div class="link-title">Lerntheke zum Erkunden | Was möchtest du ausprobieren?</div>
+          <div class="link-author">Melanie Dahm · Taskcard mit praktischen Impulsen</div>
+          <p class="link-desc">
+            Hier stelle ich dir eine digitale Lerntheke mit Erkundungsmaterial zur Verfügung.
+            Es sind vor allem kontra-intuitive Zugänge zur Interaktion mit KI-Sprachmodellen,
+            die dabei als Resonanz- statt als Antwortmaschine eingeordnet werden.
+            Selbstbestimmtes und vertieftes Lernen kommt anstelle von Abkürzung und
+            Automatisierung in den Fokus.
+          </p>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://linzspiration.de/deep-skills/" target="_blank" rel="noopener">
+          <div class="link-title">Deep Skills</div>
+          <div class="link-author">Ulrike Linz · LINZsPIRATION</div>
+          <p class="link-desc">
+            Bildung braucht eine Besinnung auf tiefe menschliche Fähigkeiten. Deep Skills
+            umfassen körperliche, emotionale, soziale und existenzielle Dimensionen –
+            wie Achtsamkeit, Verbundenheit und Selbstwahrnehmung – die als Kompass dienen,
+            um Bildung potenzialorientiert und ermächtigend hin zu einer l(I)ebenswerten
+            Welt zu gestalten.
+          </p>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://pruefungskultur.de/muendliche-pruefungen-mit-ki-detektoren-eine-fehlstrategie-fuer-zeitgemaesse-bildung/" target="_blank" rel="noopener">
+          <div class="link-title">Mündliche Prüfungen mit KI-Detektoren: Eine Fehlstrategie für zeitgemäße Bildung</div>
+          <div class="link-author">Patricia Drewes · Institut für zeitgemäße Prüfungskultur</div>
+          <p class="link-desc">
+            Wenn wir KI primär zur Automatisierung und Kontrolle einsetzen, verkommt Bildung
+            zur reinen „Zertifikatsmaschine". In ihrem Beitrag fordert Patricia Drewes
+            authentische Prüfungsformate, die digitale Werkzeuge sinnvoll in den Lernprozess
+            integrieren, anstatt sie zu bekämpfen.
+          </p>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://unterrichten.digital/2026/02/09/ki-einfuhrung-schule-unterricht-6-schritte/" target="_blank" rel="noopener">
+          <div class="link-title">KI-Einführung in 6 Schritten – Vorschlag für Schule und Unterricht</div>
+          <div class="link-author">Hauke Pölert · Unterrichten Digital</div>
+          <p class="link-desc">
+            Dieser Text beschreibt ein strukturiertes Konzept zur Einführung generativer KI
+            im Schulalltag. Der Ansatz unterteilt den Lernprozess in sechs methodische Schritte –
+            von der Bestandsaufnahme des Vorwissens über technische Grundlagen bis hin zur
+            praktischen Anwendung und gemeinsamen Regelbildung. Ein besonderer Fokus liegt auf
+            einem fächerübergreifenden Projekttag, der Schüler:innen helfen soll, KI-Tools
+            reflektiert und kritisch zu nutzen.
+          </p>
+        </a>
+      </li>
+
+    </ul>
+
+    <footer>
+      Zusammengestellt von <strong>Melanie Dahm</strong> am 02. April 2026 ·
+      Selbstlerneinheit Modul 4 | Qualifizierung Bildungsgang- und Fachteamleitung
+    </footer>
+
+  </div>
+</body>
+</html>
